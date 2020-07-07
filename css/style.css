@@ -1,0 +1,87 @@
+/* conatiner */
+.container{
+    margin-bottom: 30px;
+}
+/* conatiner */
+/* carousel */
+.carousel{
+    background: url(images/);
+}
+.caro-title,
+.caro-para{
+    text-transform: capitalize;
+}
+.caro-para{
+    color: gray;
+}
+.buy-now-button{
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.buy-now-button:hover{
+    color: white;
+    background: tomato;
+}
+.carousel-indicators li{
+    width: 22px;
+    height: 7px;
+    background-color: rgb(187, 186, 132);
+    border-radius: 5px;
+    border: none;
+}
+.carousel-indicators .active {
+    width: 35px;
+    height: 8px;
+    border-radius: 8px;
+    background: #e67e22;
+}
+/* carousl */
+/* smartphone */
+#smartphone h1{
+    text-transform: capitalize;
+}
+.see{
+    color: #ffc81e;
+    margin-top: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.see:hover{
+    color: rgb(248, 248, 125);
+}
+.card-deck{
+    padding: 30px 0;
+}
+.card-title,
+.card-text,
+.price{
+    text-transform: capitalize;
+    text-align: center;
+}
+.card-text{
+    color: #afaeae;
+}
+.card{
+    box-shadow: 5px 5px 10px rgb(235, 231, 231);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    padding: 35px;
+}
+/* smartphone */
+/* laptop */
+#laptop h1{
+    text-transform: capitalize;
+}
+/* laptop */
